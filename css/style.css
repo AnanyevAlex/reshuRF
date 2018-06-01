@@ -614,9 +614,13 @@ input#therd-comment:checked ~ .therd-comment {
 }
 
 .comments-container {
-  padding: 0 440px;
+  width: 150px;
+  margin: 0 auto;
 }
 
+.comments-container input:nth-child(3) {
+  margin-right: 0;
+}
 .comments-photo {
   width: 150px;
 }
