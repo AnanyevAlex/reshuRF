@@ -7,10 +7,6 @@ var conditiontwo = document.querySelector(".conditions-stock-opt");
 var linkthree = document.querySelector(".button-conditions-repost");
 var conditionthree = document.querySelector(".conditions-stock-repost");
 
-conditionone.classList.add("hidden-conditions");
-conditiontwo.classList.add("hidden-conditions");
-conditionthree.classList.add("hidden-conditions");
-
 linkone.addEventListener("click", function(evt) {
   evt.preventDefault ();
   conditionone.classList.toggle("hidden-conditions");

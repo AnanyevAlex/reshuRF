@@ -148,13 +148,10 @@
           </tr>
         </table>  
         </section>
-        <section class="comments">
+        <section class="slide-block__list">
           <h2>Наши отзывы</h2>
-          <div class="comments-container">
-            <input type="radio" name="slide-comments" id="first-comment" value="" checked>
-            <input type="radio" name="slide-comments" id="second-comment" value="">
-            <input type="radio" name="slide-comments" id="therd-comment" value="">
-            <div class="comments-slide first-comment" >
+          <div class="slide-block__slide slide-block__slide--showing">
+            <div class="comments-slide first-comment showing" >
               <div class="comments-row">
                 <div class="comments-photo">
                   <div class="photo svetlana-photo"></div>
@@ -186,7 +183,8 @@
                 </div>
               </div>
             </div>
-
+          </div>
+          <div class="slide-block__slide">
             <div class="comments-slide second-comment" >
               <div class="comments-row">
                 <div class="comments-photo">
@@ -217,7 +215,8 @@
                 </div>
               </div>
             </div>
-          
+          </div>
+          <div class="slide-block__slide">
             <div class="comments-slide therd-comment" >
               <div class="comments-row">
                 <div class="comments-photo">
@@ -248,6 +247,12 @@
              </div>
             </div>
           </div>
+          <div class="slide-block__btn-block">
+            <button class="slide-block__btn slide-block__btn--prev">&lt;</button>
+            <button class="slide-block__btn slide-block__btn--play">&#10074;&#10074;</button>
+            <button class="slide-block__btn slide-block__btn--next">&gt;</button>
+          </div>
+          
         </section>
         <section class="booking">
           <h2 class="visually-hidden">Задать вопрос менеджеру</h2>
@@ -276,5 +281,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/slide.js"></script>
   </body>
 </html>
