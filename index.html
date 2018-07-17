@@ -8,7 +8,7 @@
     <title>Решу РФ</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_min.css">
   </head>
   <body>
     <div class="container">
@@ -103,50 +103,97 @@
         </section>
         <section class="price">
           <h2 class="price-title">Прайс-лист на услуги</h2>
-        <table class="price-list">
-          <tr>
-            <th class="price-number">№</th>
-            <th class="price-name">Название услуги</th>
-            <th class="price-master">Что влияет на цену</th>
-            <th class="price-cost">Стоимость</th>
-          </tr>
-          <tr>
-            <td class="price-number">3.</td>
-            <td class="price-name">Чертежи</td>
-            <td class="price-master">Сроки, объём, сложность чертежа</td>
-            <td class="price-cost">от 250 руб.</td>
-          </tr>
-          <tr>
-            <td class="price-number">1.</td>
-            <td class="price-name">Контрольные</td>
-            <td class="price-master">Сроки, объём, сложность, дисципли</td>
-            <td class="price-cost">от 300 руб.</td>
-          </tr>
-          <tr>
-            <td class="price-number">2.</td>
-            <td class="price-name">Рефераты</td>
-            <td class="price-master">Сроки, сложность темы, уникальность, кол-во страниц</td>
-            <td class="price-cost">от 450 руб.</td>
-          </tr>
-          <tr>
-            <td class="price-number">4.</td>
-            <td class="price-name">Отчеты по практике</td>
-            <td class="price-master">Сроки, уникальность, дисциплина</td>
-            <td class="price-cost">от 900 руб.</td>
-          </tr>
-          <tr>
-            <td class="price-number">5.</td>
-            <td class="price-name">Курсовые работы</td>
-            <td class="price-master">Сроки, уникальность, дисциплина, тема, объём работы</td>
-            <td class="price-cost">от 1400 руб.</td>
-          </tr>
-          <tr>
-            <td class="price-number">6.</td>
-            <td class="price-name">Дипломные работы</td>
-            <td class="price-master">Сроки, уникальность, дисциплина, тема, объём работы</td>
-            <td class="price-cost">от 7000 руб.</td>
-          </tr>
-        </table>  
+          <div class="price-block">
+            <div class="price-item">
+              <h3>Дипломная работа</h3>
+              <img src="img/icon_diplom.jpg">
+              <p>Мы пишем проекты, которые соответствуют всем требованиям ГОСТа!</p>
+              <p class="price-cost">Стоимость ОТ: <br>
+                 5000 &#8381;
+              </p>
+              <div class="price-item-hover">
+                <h3>На стоиость влияют:</h3>
+                <ul class="cost-effect">
+                  <li>Дисциплина</li>
+                  <li>Тема</li>
+                  <li>Уникальность</li>
+                  <li>Сроки</li>
+                  <li>Объём работы</li>
+                </ul>
+              </div>
+            </div>
+            <div class="price-item">
+              <h3>Контрольные работы</h3>
+              <img src="img/icon_kontrolnue.jpg">
+              <p>Мало времени или желание на решение контрольной? - Мы готовы Вам помочь</p>
+              <p class="price-cost">Стоимость ОТ: <br>
+                 300 &#8381;
+              </p>
+              <div class="price-item-hover">
+                <h3>На стоиость влияют:</h3>
+                <ul class="cost-effect">
+                  <li>Дисциплина</li>
+                  <li>Объём</li>
+                  <li>Сложность заданий</li>
+                  <li>Сроки</li>
+                </ul>
+              </div>
+            </div>
+            <div class="price-item">
+              <h3>Курсовая работа</h3>
+              <img src="img/icon_kyrsovue.jpg">
+              <p>Имеем большой опыт в написании курсовых по различным дисциплинам</p>
+              <p class="price-cost">Стоимость ОТ: <br>
+                 1200 &#8381;
+              </p>
+              <div class="price-item-hover">
+                <h3>На стоиость влияют:</h3>
+                <ul class="cost-effect">
+                  <li>Дисциплина</li>
+                  <li>Тема</li>
+                  <li>Уникальность</li>
+                  <li>Сроки</li>
+                  <li>Объём работы</li>
+                </ul>
+              </div>
+            </div>
+            <div class="price-item">
+              <h3>Рефераты</h3>
+              <img src="img/icon_referatu.jpg">
+              <p>Нужен доклад или реферат - с радостью поможем в короткие сроки!</p>
+              <p class="price-cost">Стоимость ОТ: <br>
+                 400 &#8381;
+              </p>
+              <div class="price-item-hover">
+                <h3>На стоиость влияют:</h3>
+                <ul class="cost-effect">
+                  <li>Тема (сложность)</li>
+                  <li>Сроки</li>
+                  <li>Уникальность</li>
+                  <li>Объём работы</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="price-item">
+              <h3>Чертежи</h3>
+              <img src="img/icon_others.jpg">
+              <p>Выполняем чертежи в автокаде и компасе!</p>
+              <p class="price-cost">Стоимость ОТ: <br>
+                 250 &#8381;
+              </p>
+              <div class="price-item-hover">
+                <h3>На стоиость влияют:</h3>
+                <ul class="cost-effect">
+                  <li>Сроки</li>
+                  <li>Объём работы</li>
+                  <li>Дисциплина</li>
+                  <li>Наличие расчетов</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
         </section>
         <section class="slide-block__list">
           <h2>Наши отзывы</h2>
